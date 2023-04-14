@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hockey League</title>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+
+<h1 style="font-size:50px; font-family: Arial; text-align: center;">
+Hockey League
+</h1>
+
+ <form action="Add.jsp">
+Name <input type="text" name="Name">
+<br>Address <input type="text" name="Address">
+<br> 
+<label for="Team">Team </label>
+  <select name="Team" id="Team">
+    <option value="red" name ="red">red</option>
+    <option value="blue" name = "blue">blue</option>
+	
+  </select>
+  <br>
+  <label for="Role">Role </label>
+  <select name="Role" id="Role">
+    <option value="Defense" name ="Defense">Defense</option>
+    <option value="Attack" name = "Attack">Attack</option>
+	
+  </select>
+<br>
+Active <input type="checkbox" id="vehicle1" name="Active" value = "T">
+<br>
+<input type="submit" value="Save">
+<br>
+
+<input type="submit" value="Cancel" onclick="location.href='Index.html';"  >
+</form>
+ 
+
+</body>
+</html>

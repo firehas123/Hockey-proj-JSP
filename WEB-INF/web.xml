@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>View</servlet-name>
+		<servlet-class>View</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>View</servlet-name>
+		<url-pattern>/View</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Cancel</servlet-name>
+		<servlet-class>Cancel</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Cancel</servlet-name>
+		<url-pattern>/Cancel</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddPlayer</servlet-name>
+		<servlet-class>AddPlayer</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AddPlayer</servlet-name>
+		<url-pattern>/AddPlayer</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DB</servlet-name>
+		<servlet-class>DB</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DB</servlet-name>
+		<url-pattern>/DB</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
